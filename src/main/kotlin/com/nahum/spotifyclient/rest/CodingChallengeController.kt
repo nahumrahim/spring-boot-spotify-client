@@ -23,8 +23,25 @@ class CodingChallengeController {
      * @return the list
      */
     @GetMapping("/tracks")
-    fun getAllUsers(): MutableIterable<Track>? {
+    fun getAllTracks(): MutableIterable<Track>? {
         return trackRepository?.findAll()
+    }
+
+    /**
+     * Get track by isrc
+     *
+     * @param isrc an identifier for searching in db
+     *
+     * @return a track or not found exception
+     */
+    @GetMapping("/codingchallenge/getTrack")
+    fun getTrack(@RequestParam("isrc") isrc: String): Track? {
+        val localTrack = trackRepository?.findByIsrc(isrc)
+            ?: throw ResponseStatusException(
+                HttpStatus.SC_NOT_FOUND, "Track not found.", null
+            )
+
+        return localTrack
     }
 
     /**
