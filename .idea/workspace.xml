@@ -7,6 +7,7 @@
     <list default="true" id="e71847c8-667e-4ef1-a2c9-1d39e39303f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nahum/spotifyclient/rest/CodingChallengeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nahum/spotifyclient/rest/CodingChallengeController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,6 +225,7 @@
       <workItem from="1638173806520" duration="2416000" />
       <workItem from="1638203244807" duration="2186000" />
       <workItem from="1638208606580" duration="533000" />
+      <workItem from="1638914255462" duration="859000" />
     </task>
     <servers />
   </component>
